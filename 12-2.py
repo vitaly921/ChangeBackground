@@ -6,7 +6,7 @@ import game_functions as gf
 
 def run_game():
 	pygame.init()
-	# настройка экрана (разрешение и название)
+	# настройка экрана (разрешение, название, цвет фона)
 	screen = pygame.display.set_mode((1200, 600))
 	background_screen = (10, 136, 225)
 	pygame.display.set_caption('Changing the background image/screen')
